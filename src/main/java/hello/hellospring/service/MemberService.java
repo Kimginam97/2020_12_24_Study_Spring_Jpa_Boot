@@ -38,6 +38,8 @@ public class MemberService {
 
         //메소드로 뽑아서 쓴다 ctrl + alt + m
         //중복회원검증
+
+
         validateDuplicateMember(member);
 
         memberRepository.save(member);
